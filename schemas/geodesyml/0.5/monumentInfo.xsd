@@ -170,7 +170,17 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
             </element>
         </sequence>
     </complexType>
-    <complexType name="siteIdentificationType">
+
+    <complexType name="SiteIdentificationPropertyType">
+        <sequence>
+            <element ref="geo:SiteIdentification" minOccurs="0"/>
+        </sequence>
+        <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </complexType>
+
+    <element name="SiteIdentification" type="geo:SiteIdentificationType"/>
+
+    <complexType name="SiteIdentificationType">
         <sequence>
             <element name="siteName" type="string"/>
             <element name="fourCharacterID" type="string"/>
