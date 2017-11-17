@@ -144,7 +144,17 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
             <enumeration value="Scotia"/>
         </restriction>
     </simpleType>
-    <complexType name="formInformationType">
+
+    <complexType name="FormInformationPropertyType">
+        <sequence>
+            <element ref="geo:FormInformation" minOccurs="0"/>
+        </sequence>
+        <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </complexType>
+
+    <element name="FormInformation" type="geo:FormInformationType"/>
+
+    <complexType name="FormInformationType">
         <sequence>
             <element name="preparedBy" type="string"/>
             <element name="datePrepared" type="gml:TimePositionType"/>
