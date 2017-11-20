@@ -427,18 +427,20 @@ AUSTRALIA</gco:CharacterString>
             </gmd:CI_ResponsibleParty>
         </geo:siteMetadataCustodian>
         <geo:moreInformation>
-            <geo:dataCenter>GA</geo:dataCenter>
-            <geo:dataCenter>CDDIS</geo:dataCenter>
-            <geo:urlForMoreInformation></geo:urlForMoreInformation>
-            <geo:siteMap>Y</geo:siteMap>
-            <geo:siteDiagram>Y</geo:siteDiagram>
-            <geo:horizonMask>Y</geo:horizonMask>
-            <geo:monumentDescription>Y</geo:monumentDescription>
-            <geo:sitePictures>Y</geo:sitePictures>
-            <geo:notes></geo:notes>
-            <geo:antennaGraphicsWithDimensions></geo:antennaGraphicsWithDimensions>
-            <geo:insertTextGraphicFromAntenna></geo:insertTextGraphicFromAntenna>
-            <geo:DOI codeSpace="urn:ga-gov-au:self.moreInformation-type">TODO</geo:DOI>
+            <geo:MoreInformation>
+                <geo:dataCenter>GA</geo:dataCenter>
+                <geo:dataCenter>CDDIS</geo:dataCenter>
+                <geo:urlForMoreInformation></geo:urlForMoreInformation>
+                <geo:siteMap>Y</geo:siteMap>
+                <geo:siteDiagram>Y</geo:siteDiagram>
+                <geo:horizonMask>Y</geo:horizonMask>
+                <geo:monumentDescription>Y</geo:monumentDescription>
+                <geo:sitePictures>Y</geo:sitePictures>
+                <geo:notes></geo:notes>
+                <geo:antennaGraphicsWithDimensions></geo:antennaGraphicsWithDimensions>
+                <geo:insertTextGraphicFromAntenna></geo:insertTextGraphicFromAntenna>
+                <geo:DOI codeSpace="urn:ga-gov-au:self.moreInformation-type">TODO</geo:DOI>
+            </geo:MoreInformation>
         </geo:moreInformation>
     </geo:siteLog>
 </geo:GeodesyML>

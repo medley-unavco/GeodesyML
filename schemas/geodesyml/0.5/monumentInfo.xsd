@@ -161,7 +161,17 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
             <element name="reportType" type="string"/>
         </sequence>
     </complexType>
-    <complexType name="moreInformationType">
+
+    <complexType name="MoreInformationPropertyType">
+        <sequence>
+            <element ref="geo:MoreInformation" minOccurs="0"/>
+        </sequence>
+        <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </complexType>
+
+    <element name="MoreInformation" type="geo:MoreInformationType"/>
+
+    <complexType name="MoreInformationType">
         <sequence>
             <element maxOccurs="unbounded" name="dataCenter" type="string"/>
             <element name="urlForMoreInformation" type="string"/>
