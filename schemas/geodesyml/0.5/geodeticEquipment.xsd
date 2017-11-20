@@ -30,9 +30,9 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
             <sequence minOccurs="0">
                 <element ref="geo:geodeticEquipmentItem"/>
             </sequence>
-            <group ref="geo:ChangeTracking"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
+        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <element abstract="false" name="geodeticEquipmentItem" type="geo:baseGeodeticEquipmentType">
         <annotation>

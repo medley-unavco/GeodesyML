@@ -50,7 +50,7 @@
                 <geo:notes></geo:notes>
             </geo:SiteLocation>
         </geo:siteLocation>
-        <geo:gnssReceiver>
+        <geo:gnssReceiver dateInserted="2008-03-26Z">
             <geo:GnssReceiver gml:id="gnss-receiver-1">
                 <geo:manufacturerSerialNumber>461571</geo:manufacturerSerialNumber>
                 <geo:igsModelCode codeList="http://xml.gov.au/icsm/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSReceiverTypeCode" codeListValue="LEICA GRX1200PRO" codeSpace="urn:xml-gov-au:icsm:egeodesy:0.5">LEICA GRX1200PRO</geo:igsModelCode>
@@ -61,9 +61,8 @@
                 <geo:dateRemoved></geo:dateRemoved>
                 <geo:temperatureStabilization xsi:nil="true"></geo:temperatureStabilization>
             </geo:GnssReceiver>
-            <geo:dateInserted>2008-03-26T00:00:00Z</geo:dateInserted>
         </geo:gnssReceiver>
-        <geo:gnssAntenna>
+        <geo:gnssAntenna dateInserted="2008-03-26Z">
             <geo:GnssAntenna gml:id="gnss-antenna-1">
                 <geo:manufacturerSerialNumber>5350026</geo:manufacturerSerialNumber>
                 <geo:igsModelCode codeList="http://xml.gov.au/icsm/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSAntennaTypeCode" codeListValue="LEIAX1202GG NONE" codeSpace="urn:xml-gov-au:icsm:egeodesy:0.5">LEIAX1202GG     NONE</geo:igsModelCode>
@@ -79,9 +78,8 @@
                 <geo:dateInstalled>2008-03-26T00:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved></geo:dateRemoved>
             </geo:GnssAntenna>
-            <geo:dateInserted>2008-03-26T00:00:00Z</geo:dateInserted>
         </geo:gnssAntenna>
-        <geo:frequencyStandard>
+        <geo:frequencyStandard dateInserted="2008-03-26">
             <geo:FrequencyStandard gml:id="frequency-standard-1">
                 <geo:standardType codeSpace="urn:ga-gov-au:frequency-standard-type">QUARTZ/INTERNAL</geo:standardType>
                 <geo:inputFrequency>0.0</geo:inputFrequency>
@@ -93,7 +91,6 @@
                 </gml:validTime>
                 <geo:notes></geo:notes>
             </geo:FrequencyStandard>
-            <geo:dateInserted>2008-03-26</geo:dateInserted>
         </geo:frequencyStandard>
         <geo:siteContact gml:id="agency-1">
             <gmd:MD_SecurityConstraints>

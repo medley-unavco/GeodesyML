@@ -312,13 +312,11 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
     <element name="CollocationInformation" substitutionGroup="gml:AbstractGML" type="geo:CollocationInformationType"/>
     <!--  Property types for each equipment type -->
     <complexType name="gnssReceiverPropertyType">
-        <sequence>
-            <sequence minOccurs="0">
-                <element ref="geo:GnssReceiver"/>
-            </sequence>
-            <group ref="geo:ChangeTracking"/>
+        <sequence minOccurs="0">
+            <element ref="geo:GnssReceiver"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
+        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <!--  -->
     <complexType name="gnssAntennaPropertyType">
@@ -326,9 +324,9 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
             <sequence minOccurs="0">
                 <element ref="geo:GnssAntenna"/>
             </sequence>
-            <group ref="geo:ChangeTracking"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
+        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <!--  -->
     <complexType name="humiditySensorPropertyType">
@@ -336,9 +334,9 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
             <sequence minOccurs="0">
                 <element ref="geo:HumiditySensor"/>
             </sequence>
-            <group ref="geo:ChangeTracking"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
+        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <!--  -->
     <complexType name="pressureSensorPropertyType">
@@ -346,9 +344,9 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
             <sequence minOccurs="0">
                 <element ref="geo:PressureSensor"/>
             </sequence>
-            <group ref="geo:ChangeTracking"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
+        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <!--  -->
     <complexType name="temperatureSensorPropertyType">
@@ -356,9 +354,9 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
             <sequence minOccurs="0">
                 <element ref="geo:TemperatureSensor"/>
             </sequence>
-            <group ref="geo:ChangeTracking"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
+        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <!--  -->
     <complexType name="waterVaporSensorPropertyType">
@@ -366,9 +364,9 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
             <sequence minOccurs="0">
                 <element ref="geo:WaterVaporSensor"/>
             </sequence>
-            <group ref="geo:ChangeTracking"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
+        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <!--  -->
     <complexType name="otherInstrumentationPropertyType">
@@ -376,9 +374,9 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
             <sequence minOccurs="0">
                 <element ref="geo:OtherInstrumentation"/>
             </sequence>
-            <group ref="geo:ChangeTracking"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
+        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <!--  -->
     <complexType name="gnssRadomePropertyType">
@@ -386,9 +384,9 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
             <sequence minOccurs="0">
                 <element ref="geo:GnssRadome"/>
             </sequence>
-            <group ref="geo:ChangeTracking"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
+        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <!--  -->
     <complexType name="surveyedLocalTiePropertyType">
@@ -397,9 +395,9 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
                 <element ref="geo:SurveyedLocalTie"/>
                 <element ref="geo:TieMeasurement"/>
             </choice>
-            <group ref="geo:ChangeTracking"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
+        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <!--  -->
     <complexType name="frequencyStandardPropertyType">
@@ -408,9 +406,9 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
                 <element ref="geo:FrequencyStandard"/>
                 <group ref="geo:RemarksGroup"/>
             </sequence>
-            <group ref="geo:ChangeTracking"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
+        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <!--  -->
     <complexType name="collocationInformationPropertyType">
@@ -419,9 +417,9 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
                 <element ref="geo:CollocationInformation"/>
 
             </sequence>
-            <group ref="geo:ChangeTracking"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
+        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <!--  -->
 </schema>
