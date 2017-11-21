@@ -50,7 +50,7 @@
                 <geo:notes>coords updated 29 June 2014 to Reg13</geo:notes>
             </geo:SiteLocation>
         </geo:siteLocation>
-        <geo:gnssReceiver dateInserted="2011-03-21Z">
+        <geo:gnssReceiver>
             <geo:GnssReceiver gml:id="gnss-receiver-1">
                 <geo:notes>edited date removed</geo:notes>
                 <geo:manufacturerSerialNumber>353304</geo:manufacturerSerialNumber>
@@ -62,8 +62,9 @@
                 <geo:dateRemoved>2014-07-16T00:00:00Z</geo:dateRemoved>
                 <geo:temperatureStabilization xsi:nil="true"></geo:temperatureStabilization>
             </geo:GnssReceiver>
+            <geo:dateInserted>2011-03-21T00:00:00Z</geo:dateInserted>
         </geo:gnssReceiver>
-        <geo:gnssReceiver dateInserted="2014-07-16Z">
+        <geo:gnssReceiver>
             <geo:GnssReceiver gml:id="gnss-receiver-2">
                 <geo:notes>updated firmware</geo:notes>
                 <geo:manufacturerSerialNumber>353304</geo:manufacturerSerialNumber>
@@ -75,8 +76,9 @@
                 <geo:dateRemoved></geo:dateRemoved>
                 <geo:temperatureStabilization xsi:nil="true"></geo:temperatureStabilization>
             </geo:GnssReceiver>
+            <geo:dateInserted>2014-07-16T00:00:00Z</geo:dateInserted>
         </geo:gnssReceiver>
-        <geo:gnssAntenna dateInserted="2011-03-21Z">
+        <geo:gnssAntenna>
             <geo:GnssAntenna gml:id="gnss-antenna-1">
                 <geo:manufacturerSerialNumber>08090150</geo:manufacturerSerialNumber>
                 <geo:igsModelCode codeList="http://xml.gov.au/icsm/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSAntennaTypeCode" codeListValue="LEIAX1202GG NONE" codeSpace="urn:xml-gov-au:icsm:egeodesy:0.5">LEIAX1202GG     NONE</geo:igsModelCode>
@@ -92,6 +94,7 @@
                 <geo:dateInstalled>2011-03-21T00:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved></geo:dateRemoved>
             </geo:GnssAntenna>
+            <geo:dateInserted>2011-03-21T00:00:00Z</geo:dateInserted>
         </geo:gnssAntenna>
         <geo:siteContact gml:id="agency-1">
             <gmd:MD_SecurityConstraints>

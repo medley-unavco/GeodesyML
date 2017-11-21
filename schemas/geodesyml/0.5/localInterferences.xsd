@@ -93,9 +93,9 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
             <sequence minOccurs="0">
                 <element ref="geo:MultipathSource"/>
             </sequence>
+            <group ref="geo:ChangeTracking"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
-        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <!--  -->
     <complexType name="signalObstructionPropertyType">
@@ -103,9 +103,9 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
             <sequence minOccurs="0">
                 <element ref="geo:SignalObstruction"/>
             </sequence>
+            <group ref="geo:ChangeTracking"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
-        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <!--  -->
     <complexType name="radioInterferencePropertyType">
@@ -113,9 +113,9 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
             <sequence minOccurs="0">
                 <element ref="geo:RadioInterference"/>
             </sequence>
+            <group ref="geo:ChangeTracking"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
-        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <!--  -->
     <complexType name="localEpisodicEffectPropertyType">
@@ -123,9 +123,9 @@ Copyright: Scripps Orbit and Permanent Array Center (SOPAC), Commonwealth Govern
             <sequence minOccurs="0">
                 <element ref="geo:LocalEpisodicEffect"/>
             </sequence>
+            <group ref="geo:ChangeTracking"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
-        <attributeGroup ref="geo:ChangeTrackingAttributeGroup"/>
     </complexType>
     <!--  -->
 </schema>

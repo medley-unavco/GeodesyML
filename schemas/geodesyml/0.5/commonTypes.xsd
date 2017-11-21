@@ -35,15 +35,6 @@ Copyright: Commonwealth Government (Geoscience Australia) 2016
         </sequence>
     </group>
     <!--  -->
-    <attributeGroup name="ChangeTrackingAttributeGroup">
-        <annotation>
-            <documentation>A convenience group to log changes made to each meta-data block.</documentation>
-        </annotation>
-        <attribute name="dateInserted" type="date" use="required"/>
-        <attribute name="dateDeleted" type="date"/>
-        <attribute name="deletedReason" type="string"/>
-    </attributeGroup>
-    <!--  -->
     <attributeGroup name="RequiredSRSReferenceGroup">
         <annotation>
             <documentation>The attribute group SRSReferenceGroup is a required reference to the CRS used by this geometry, with optional additional information to simplify the processing of the coordinates when a more complete definition of the CRS is not needed.
