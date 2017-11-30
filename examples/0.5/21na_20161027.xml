@@ -50,7 +50,7 @@
                 <geo:notes></geo:notes>
             </geo:SiteLocation>
         </geo:siteLocation>
-        <geo:gnssReceiver dateInserted="2008-03-27Z">
+        <geo:gnssReceiver>
             <geo:GnssReceiver gml:id="gnss-receiver-1">
                 <geo:manufacturerSerialNumber>461537</geo:manufacturerSerialNumber>
                 <geo:igsModelCode codeList="http://xml.gov.au/icsm/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSReceiverTypeCode" codeListValue="LEICA GRX1200PRO" codeSpace="urn:xml-gov-au:icsm:egeodesy:0.5">LEICA GRX1200PRO</geo:igsModelCode>
@@ -60,9 +60,10 @@
                 <geo:dateInstalled>2008-03-27T00:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved></geo:dateRemoved>
                 <geo:temperatureStabilization xsi:nil="true"></geo:temperatureStabilization>
+                <geo:dateInserted>2008-03-27Z</geo:dateInserted>
             </geo:GnssReceiver>
         </geo:gnssReceiver>
-        <geo:gnssAntenna dateInserted="2008-03-27Z">
+        <geo:gnssAntenna>
             <geo:GnssAntenna gml:id="gnss-antenna-1">
                 <geo:manufacturerSerialNumber>5170149</geo:manufacturerSerialNumber>
                 <geo:igsModelCode codeList="http://xml.gov.au/icsm/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSAntennaTypeCode" codeListValue="LEIAX1202GG NONE" codeSpace="urn:xml-gov-au:icsm:egeodesy:0.5">LEIAX1202GG     NONE</geo:igsModelCode>
@@ -77,9 +78,10 @@
                 <geo:antennaCableLength>0.0</geo:antennaCableLength>
                 <geo:dateInstalled>2008-03-27T00:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved></geo:dateRemoved>
+                <geo:dateInserted>2008-03-27Z</geo:dateInserted>
             </geo:GnssAntenna>
         </geo:gnssAntenna>
-        <geo:frequencyStandard dateInserted="2008-03-27">
+        <geo:frequencyStandard>
             <geo:FrequencyStandard gml:id="frequency-standard-1">
                 <geo:standardType codeSpace="urn:ga-gov-au:frequency-standard-type">QUARTZ/INTERNAL</geo:standardType>
                 <geo:inputFrequency>0.0</geo:inputFrequency>
@@ -90,6 +92,7 @@
                     </gml:TimePeriod>
                 </gml:validTime>
                 <geo:notes></geo:notes>
+                <geo:dateInserted>2008-03-27</geo:dateInserted>
             </geo:FrequencyStandard>
         </geo:frequencyStandard>
         <geo:siteContact gml:id="agency-1">

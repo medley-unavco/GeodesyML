@@ -54,7 +54,7 @@
     Tech. Memorandum 4482&quot; p631.</geo:notes>
             </geo:SiteLocation>
         </geo:siteLocation>
-        <geo:gnssReceiver dateInserted="2007-06-01Z">
+        <geo:gnssReceiver>
             <geo:GnssReceiver gml:id="gnss-receiver-1">
                 <geo:manufacturerSerialNumber>351926</geo:manufacturerSerialNumber>
                 <geo:igsModelCode codeList="http://xml.gov.au/icsm/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSReceiverTypeCode" codeListValue="LEICA GRX1200GGPRO" codeSpace="urn:xml-gov-au:icsm:egeodesy:0.5">LEICA GRX1200GGPRO</geo:igsModelCode>
@@ -64,9 +64,10 @@
                 <geo:dateInstalled>2007-06-01T00:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved>2008-05-08T23:59:00Z</geo:dateRemoved>
                 <geo:temperatureStabilization xsi:nil="true"></geo:temperatureStabilization>
+                <geo:dateInserted>2007-06-01Z</geo:dateInserted>
             </geo:GnssReceiver>
         </geo:gnssReceiver>
-        <geo:gnssReceiver dateInserted="2008-05-09Z">
+        <geo:gnssReceiver>
             <geo:GnssReceiver gml:id="gnss-receiver-2">
                 <geo:manufacturerSerialNumber>355805</geo:manufacturerSerialNumber>
                 <geo:igsModelCode codeList="http://xml.gov.au/icsm/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSReceiverTypeCode" codeListValue="LEICA GRX1200GGPRO" codeSpace="urn:xml-gov-au:icsm:egeodesy:0.5">LEICA GRX1200GGPRO</geo:igsModelCode>
@@ -76,9 +77,10 @@
                 <geo:dateInstalled>2008-05-09T00:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved>2008-08-20T23:59:00Z</geo:dateRemoved>
                 <geo:temperatureStabilization xsi:nil="true"></geo:temperatureStabilization>
+                <geo:dateInserted>2008-05-09Z</geo:dateInserted>
             </geo:GnssReceiver>
         </geo:gnssReceiver>
-        <geo:gnssReceiver dateInserted="2008-08-21Z">
+        <geo:gnssReceiver>
             <geo:GnssReceiver gml:id="gnss-receiver-3">
                 <geo:manufacturerSerialNumber>355805</geo:manufacturerSerialNumber>
                 <geo:igsModelCode codeList="http://xml.gov.au/icsm/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSReceiverTypeCode" codeListValue="LEICA GRX1200GGPRO" codeSpace="urn:xml-gov-au:icsm:egeodesy:0.5">LEICA GRX1200GGPRO</geo:igsModelCode>
@@ -88,9 +90,10 @@
                 <geo:dateInstalled>2008-08-21T00:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved>2009-07-23T23:59:00Z</geo:dateRemoved>
                 <geo:temperatureStabilization xsi:nil="true"></geo:temperatureStabilization>
+                <geo:dateInserted>2008-08-21Z</geo:dateInserted>
             </geo:GnssReceiver>
         </geo:gnssReceiver>
-        <geo:gnssReceiver dateInserted="2009-07-24Z">
+        <geo:gnssReceiver>
             <geo:GnssReceiver gml:id="gnss-receiver-4">
                 <geo:notes>The tracking was changed from C2 or P2, to
 P2 only at 2009-07-31T00:00Z</geo:notes>
@@ -102,9 +105,10 @@ P2 only at 2009-07-31T00:00Z</geo:notes>
                 <geo:dateInstalled>2009-07-24T00:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved>2010-05-03T03:00:00Z</geo:dateRemoved>
                 <geo:temperatureStabilization xsi:nil="true"></geo:temperatureStabilization>
+                <geo:dateInserted>2009-07-24Z</geo:dateInserted>
             </geo:GnssReceiver>
         </geo:gnssReceiver>
-        <geo:gnssReceiver dateInserted="2010-05-03Z">
+        <geo:gnssReceiver>
             <geo:GnssReceiver gml:id="gnss-receiver-5">
                 <geo:notes>ME upgrade due to GLONASS tracking problems.</geo:notes>
                 <geo:manufacturerSerialNumber>355805</geo:manufacturerSerialNumber>
@@ -115,9 +119,10 @@ P2 only at 2009-07-31T00:00Z</geo:notes>
                 <geo:dateInstalled>2010-05-03T03:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved>2010-08-24T01:00:00Z</geo:dateRemoved>
                 <geo:temperatureStabilization xsi:nil="true"></geo:temperatureStabilization>
+                <geo:dateInserted>2010-05-03Z</geo:dateInserted>
             </geo:GnssReceiver>
         </geo:gnssReceiver>
-        <geo:gnssReceiver dateInserted="2010-08-24Z">
+        <geo:gnssReceiver>
             <geo:GnssReceiver gml:id="gnss-receiver-6">
                 <geo:manufacturerSerialNumber>355805</geo:manufacturerSerialNumber>
                 <geo:igsModelCode codeList="http://xml.gov.au/icsm/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSReceiverTypeCode" codeListValue="LEICA GRX1200GGPRO" codeSpace="urn:xml-gov-au:icsm:egeodesy:0.5">LEICA GRX1200GGPRO</geo:igsModelCode>
@@ -127,9 +132,10 @@ P2 only at 2009-07-31T00:00Z</geo:notes>
                 <geo:dateInstalled>2010-08-24T01:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved>2010-10-15T00:00:00Z</geo:dateRemoved>
                 <geo:temperatureStabilization xsi:nil="true"></geo:temperatureStabilization>
+                <geo:dateInserted>2010-08-24Z</geo:dateInserted>
             </geo:GnssReceiver>
         </geo:gnssReceiver>
-        <geo:gnssReceiver dateInserted="2010-10-15Z">
+        <geo:gnssReceiver>
             <geo:GnssReceiver gml:id="gnss-receiver-7">
                 <geo:manufacturerSerialNumber>355805</geo:manufacturerSerialNumber>
                 <geo:igsModelCode codeList="http://xml.gov.au/icsm/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSReceiverTypeCode" codeListValue="LEICA GRX1200GGPRO" codeSpace="urn:xml-gov-au:icsm:egeodesy:0.5">LEICA GRX1200GGPRO</geo:igsModelCode>
@@ -139,9 +145,10 @@ P2 only at 2009-07-31T00:00Z</geo:notes>
                 <geo:dateInstalled>2010-10-15T00:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved>2011-08-24T23:59:00Z</geo:dateRemoved>
                 <geo:temperatureStabilization xsi:nil="true"></geo:temperatureStabilization>
+                <geo:dateInserted>2010-10-15Z</geo:dateInserted>
             </geo:GnssReceiver>
         </geo:gnssReceiver>
-        <geo:gnssReceiver dateInserted="2011-08-25Z">
+        <geo:gnssReceiver>
             <geo:GnssReceiver gml:id="gnss-receiver-8">
                 <geo:manufacturerSerialNumber>355805</geo:manufacturerSerialNumber>
                 <geo:igsModelCode codeList="http://xml.gov.au/icsm/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSReceiverTypeCode" codeListValue="LEICA GRX1200GGPRO" codeSpace="urn:xml-gov-au:icsm:egeodesy:0.5">LEICA GRX1200GGPRO</geo:igsModelCode>
@@ -151,9 +158,10 @@ P2 only at 2009-07-31T00:00Z</geo:notes>
                 <geo:dateInstalled>2011-08-25T00:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved>2013-03-26T00:00:00Z</geo:dateRemoved>
                 <geo:temperatureStabilization xsi:nil="true"></geo:temperatureStabilization>
+                <geo:dateInserted>2011-08-25Z</geo:dateInserted>
             </geo:GnssReceiver>
         </geo:gnssReceiver>
-        <geo:gnssReceiver dateInserted="2013-03-26Z">
+        <geo:gnssReceiver>
             <geo:GnssReceiver gml:id="gnss-receiver-9">
                 <geo:manufacturerSerialNumber>355805</geo:manufacturerSerialNumber>
                 <geo:igsModelCode codeList="http://xml.gov.au/icsm/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSReceiverTypeCode" codeListValue="LEICA GRX1200GGPRO" codeSpace="urn:xml-gov-au:icsm:egeodesy:0.5">LEICA GRX1200GGPRO</geo:igsModelCode>
@@ -163,9 +171,10 @@ P2 only at 2009-07-31T00:00Z</geo:notes>
                 <geo:dateInstalled>2013-03-26T00:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved>2014-07-09T00:00:00Z</geo:dateRemoved>
                 <geo:temperatureStabilization xsi:nil="true"></geo:temperatureStabilization>
+                <geo:dateInserted>2013-03-26Z</geo:dateInserted>
             </geo:GnssReceiver>
         </geo:gnssReceiver>
-        <geo:gnssReceiver dateInserted="2014-07-09Z">
+        <geo:gnssReceiver>
             <geo:GnssReceiver gml:id="gnss-receiver-10">
                 <geo:manufacturerSerialNumber>355805</geo:manufacturerSerialNumber>
                 <geo:igsModelCode codeList="http://xml.gov.au/icsm/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSReceiverTypeCode" codeListValue="LEICA GRX1200GGPRO" codeSpace="urn:xml-gov-au:icsm:egeodesy:0.5">LEICA GRX1200GGPRO</geo:igsModelCode>
@@ -175,9 +184,10 @@ P2 only at 2009-07-31T00:00Z</geo:notes>
                 <geo:dateInstalled>2014-07-09T00:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved></geo:dateRemoved>
                 <geo:temperatureStabilization xsi:nil="true"></geo:temperatureStabilization>
+                <geo:dateInserted>2014-07-09Z</geo:dateInserted>
             </geo:GnssReceiver>
         </geo:gnssReceiver>
-        <geo:gnssAntenna dateInserted="2007-06-01Z">
+        <geo:gnssAntenna>
             <geo:GnssAntenna gml:id="gnss-antenna-1">
                 <geo:manufacturerSerialNumber>103320</geo:manufacturerSerialNumber>
                 <geo:igsModelCode codeList="http://xml.gov.au/icsm/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSAntennaTypeCode" codeListValue="LEIAT504 NONE" codeSpace="urn:xml-gov-au:icsm:egeodesy:0.5">LEIAT504        NONE</geo:igsModelCode>
@@ -192,9 +202,10 @@ P2 only at 2009-07-31T00:00Z</geo:notes>
                 <geo:antennaCableLength>70.0</geo:antennaCableLength>
                 <geo:dateInstalled>2007-06-01T00:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved>2008-12-04T23:59:00Z</geo:dateRemoved>
+                <geo:dateInserted>2007-06-01Z</geo:dateInserted>
             </geo:GnssAntenna>
         </geo:gnssAntenna>
-        <geo:gnssAntenna dateInserted="2008-12-05Z">
+        <geo:gnssAntenna>
             <geo:GnssAntenna gml:id="gnss-antenna-2">
                 <geo:manufacturerSerialNumber>08360001</geo:manufacturerSerialNumber>
                 <geo:igsModelCode codeList="http://xml.gov.au/icsm/geodesyml/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSAntennaTypeCode" codeListValue="LEIAR25 NONE" codeSpace="urn:xml-gov-au:icsm:egeodesy:0.5">LEIAR25         NONE</geo:igsModelCode>
@@ -209,9 +220,10 @@ P2 only at 2009-07-31T00:00Z</geo:notes>
                 <geo:antennaCableLength>70.0</geo:antennaCableLength>
                 <geo:dateInstalled>2008-12-05T00:00:00Z</geo:dateInstalled>
                 <geo:dateRemoved></geo:dateRemoved>
+                <geo:dateInserted>2008-12-05Z</geo:dateInserted>
             </geo:GnssAntenna>
         </geo:gnssAntenna>
-        <geo:frequencyStandard dateInserted="2007-06-01">
+        <geo:frequencyStandard>
             <geo:FrequencyStandard gml:id="frequency-standard-1">
                 <geo:standardType codeSpace="urn:ga-gov-au:frequency-standard-type">INTERNAL</geo:standardType>
                 <geo:inputFrequency>0.0</geo:inputFrequency>
@@ -222,9 +234,10 @@ P2 only at 2009-07-31T00:00Z</geo:notes>
                     </gml:TimePeriod>
                 </gml:validTime>
                 <geo:notes></geo:notes>
+                <geo:dateInserted>2007-06-01</geo:dateInserted>
             </geo:FrequencyStandard>
         </geo:frequencyStandard>
-        <geo:collocationInformation dateInserted="1979-07-01">
+        <geo:collocationInformation>
             <geo:CollocationInformation gml:id="instrumentation-type-1">
                 <geo:instrumentationType codeSpace="urn:ga-gov-au:instrumentation-type">SLR MOBLAS-5</geo:instrumentationType>
                 <geo:status codeSpace="urn:ga-gov-au:status-type">PERMANENT</geo:status>
@@ -235,9 +248,10 @@ P2 only at 2009-07-31T00:00Z</geo:notes>
                     </gml:TimePeriod>
                 </gml:validTime>
                 <geo:notes></geo:notes>
+                <geo:dateInserted>1979-07-01</geo:dateInserted>
             </geo:CollocationInformation>
         </geo:collocationInformation>
-        <geo:collocationInformation dateInserted="1992-09-14">
+        <geo:collocationInformation>
             <geo:CollocationInformation gml:id="instrumentation-type-2">
                 <geo:instrumentationType codeSpace="urn:ga-gov-au:instrumentation-type">DORIS</geo:instrumentationType>
                 <geo:status codeSpace="urn:ga-gov-au:status-type">PERMANENT</geo:status>
@@ -248,12 +262,14 @@ P2 only at 2009-07-31T00:00Z</geo:notes>
                     </gml:TimePeriod>
                 </gml:validTime>
                 <geo:notes>Alcatel antenna (type A)</geo:notes>
+                <geo:dateInserted>1992-09-14</geo:dateInserted>
             </geo:CollocationInformation>
         </geo:collocationInformation>
-        <geo:humiditySensor dateInserted="2008-06-09">
+        <geo:humiditySensor>
             <geo:HumiditySensor gml:id="humidity-sensor-1">
                 <geo:type codeSpace="urn:ga-gov-au:humidity-sensor-type">PAROSCIENTIFIC MET3A</geo:type>
                 <geo:notes>unconfirmed height diff to ant</geo:notes>
+                <geo:dateInserted>2008-06-09</geo:dateInserted>
                 <geo:manufacturer>Paroscientific</geo:manufacturer>
                 <geo:serialNumber>DQ101678</geo:serialNumber>
                 <geo:heightDiffToAntenna>0.0</geo:heightDiffToAntenna>
@@ -269,10 +285,11 @@ P2 only at 2009-07-31T00:00Z</geo:notes>
                 <geo:aspiration>FAN</geo:aspiration>
             </geo:HumiditySensor>
         </geo:humiditySensor>
-        <geo:pressureSensor dateInserted="2008-06-09">
+        <geo:pressureSensor>
             <geo:PressureSensor gml:id="pressure-sensor-1">
                 <geo:type codeSpace="urn:ga-gov-au:pressure-sensor-type">PAROSCIENTIFIC MET3A</geo:type>
                 <geo:notes>unconfirmed height diff to ant</geo:notes>
+                <geo:dateInserted>2008-06-09</geo:dateInserted>
                 <geo:manufacturer>Paroscientific</geo:manufacturer>
                 <geo:serialNumber>DQ101678</geo:serialNumber>
                 <geo:heightDiffToAntenna>0.0</geo:heightDiffToAntenna>
@@ -287,10 +304,11 @@ P2 only at 2009-07-31T00:00Z</geo:notes>
                 <geo:accuracy-hPa>0.1</geo:accuracy-hPa>
             </geo:PressureSensor>
         </geo:pressureSensor>
-        <geo:temperatureSensor dateInserted="2008-06-09">
+        <geo:temperatureSensor>
             <geo:TemperatureSensor gml:id="temperature-sensor-1">
                 <geo:type codeSpace="urn:ga-gov-au:temperature-sensor-type">PAROSCIENTIFIC MET3A</geo:type>
                 <geo:notes>unconfirmed height diff to ant</geo:notes>
+                <geo:dateInserted>2008-06-09</geo:dateInserted>
                 <geo:manufacturer>Paroscientific</geo:manufacturer>
                 <geo:serialNumber>DQ101678</geo:serialNumber>
                 <geo:heightDiffToAntenna>0.0</geo:heightDiffToAntenna>

@@ -21,15 +21,17 @@ Copyright: Commonwealth Government (Geoscience Australia) 2016
             <element minOccurs="0" name="extension" type="anyType"/>
         </sequence>
     </group>
-    <!-- Change tracking attribute group -->
-    <attributeGroup name="ChangeTrackingAttributeGroup">
+    <!-- Change tracking group -->
+    <group name="ChangeTrackingGroup">
         <annotation>
             <documentation>A convenience group to log changes made to each meta-data block.</documentation>
         </annotation>
-        <attribute name="dateInserted" type="date" use="required"/>
-        <attribute name="dateDeleted" type="date"/>
-        <attribute name="deletedReason" type="string"/>
-    </attributeGroup>
+        <sequence>
+            <element name="dateInserted" type="gml:TimePositionType" minOccurs="1"/>
+            <element name="dateDeleted" type="gml:TimePositionType" minOccurs="0"/>
+            <element name="deletedReason" type="string" minOccurs="0"/>
+        </sequence>
+    </group>
     <!--  -->
     <attributeGroup name="RequiredSRSReferenceGroup">
         <annotation>
